@@ -1,0 +1,131 @@
+{
+  "tasks": [
+    {
+      "title": "New website for Symu.co",
+      "time": "5 days",
+      "isDelayed": true
+    },
+    {
+      "title": "Free business PSD Template",
+      "time": "2 days",
+      "isDelayed": true
+    },
+    {
+      "title": "New logo for JCD.pl",
+      "time": "5 days",
+      "isDelayed": false
+    },
+    {
+      "title": "Free Icons Set vol. 3",
+      "time": "10 days",
+      "isDelayed": false
+    },
+    {
+      "title": "New website for Symu.co",
+      "time": "5 days",
+      "isDelayed": false
+    }
+  ],
+  "messages": [
+    {
+      "name": "Nina Jones",
+      "time": "5 minutes ago",
+      "isRead": false,
+      "text": "Hey you! It's me again :-) I attached new (...)",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    },
+    {
+      "name": "Nina Jones",
+      "time": "About 20 hours ago",
+      "isRead": false,
+      "text": "Hey! I attached some new PSD files for(...)",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    },
+    {
+      "name": "James Smith",
+      "time": "2 days ago",
+      "isRead": true,
+      "text": "Good morning! You are fired!",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNghlWcMqiRWs9Vk6GxRn7fP95ou5jvd0icRm1h49immvGytMXg"
+    },
+    {
+      "name": "Nina Jones",
+      "time": "About 2 weeks ago",
+      "isRead": true,
+      "text": "Hello! Could you bring me some coffe please?",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Nina Jones",
+      "time": "Just now",
+      "action": "added a new project",
+      "project": "Free UI Kit",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    },
+    {
+      "name": "James Smith",
+      "time": "40 minutes ago",
+      "action": "commented project",
+      "project": "Free PSD Template",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNghlWcMqiRWs9Vk6GxRn7fP95ou5jvd0icRm1h49immvGytMXg"
+    },
+    {
+      "name": "Alex Clooney",
+      "time": "1 hour ago",
+      "action": "completed task",
+      "project": "Symu Website",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK30k4bBK8fadg26VmfdOIbENRIWYaundUQiRGpKHbikRtrOaCuQ"
+    },
+    {
+      "name": "Alexandra Spears",
+      "time": "3 hours ago",
+      "action": "added a new project",
+      "project": "Free PSD (...)",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrCkV_crAwgVVLXBkTI5ESOcjklXnUfhaZ1OklQTx3zEaJIgAT-g"
+    },
+    {
+      "name": "Nina Jones",
+      "time": "3 hours",
+      "action": "added a new project",
+      "project": "Free UI Kit",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    },
+    {
+      "name": "James Smith",
+      "time": "4 hours ago",
+      "action": "commented project",
+      "project": "Free PSD Template",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNghlWcMqiRWs9Vk6GxRn7fP95ou5jvd0icRm1h49immvGytMXg"
+    },
+    {
+      "name": "Nina Jones",
+      "time": "5 hours",
+      "action": "added a new project",
+      "project": "Free UI Kit",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9pXtTYRK1QP9pfEhmQd2JsdL3I7yENp5IOGI934vijUIOJD2P"
+    },
+    {
+      "name": "James Smith",
+      "time": "8 hours ago",
+      "action": "commented project",
+      "project": "Free PSD Template",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNghlWcMqiRWs9Vk6GxRn7fP95ou5jvd0icRm1h49immvGytMXg"
+    },
+    {
+      "name": "Alex Clooney",
+      "time": "2 days ago",
+      "action": "completed task",
+      "project": "Symu Website",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK30k4bBK8fadg26VmfdOIbENRIWYaundUQiRGpKHbikRtrOaCuQ"
+    },
+    {
+      "name": "Alexandra Spears",
+      "time": "3 days ago",
+      "action": "added a new project",
+      "project": "Free PSD (...)",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrCkV_crAwgVVLXBkTI5ESOcjklXnUfhaZ1OklQTx3zEaJIgAT-g"
+    }
+  ]
+}

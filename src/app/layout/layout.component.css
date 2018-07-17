@@ -1,0 +1,65 @@
+.container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #f6f7fa;
+}
+.grafCont, .actCont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar{
+  flex-grow: 1;
+}
+.diagram{
+  flex-grow: 2;
+  margin-right: 4vmin;
+}
+.graffic{
+  flex-grow: 3;
+}
+.diagram, .graffic{
+  margin-bottom: 4vmin;
+}
+.contLayout{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 6;
+  overflow-y: scroll;
+}
+.contLayout::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.contLayout::-webkit-scrollbar-thumb {
+  background: #8896b2;
+  border-radius: 10px;
+}
+h1{
+  font-family: sans-serif;
+  margin: 5vmin auto 0vmin 4vmin;
+}
+app-tasks, app-messages, app-activity{
+  width: 32%;
+}
+.cont{
+  margin: 4vmin;
+}
+@media all and (max-width: 940px){
+  .side-bar{
+    flex-grow: 1 !important;
+  }
+  .contLayout{
+    flex-grow: 4 !important;
+  }
+}
+@media all and (max-width: 740px){
+  app-tasks, app-messages, app-activity{
+    width: 90%;
+    margin-top: 4vmin;
+  }
+  .actCont, .grafCont{
+    display: block;
+  }
+}

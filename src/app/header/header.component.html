@@ -1,0 +1,13 @@
+<div class="container">
+  <i class="fas fa-caret-left" [ngClass]="{'visib': isBarClosed}"></i>
+  <i class="fas fa-bars" (click)="toggleSidebar()"></i>
+  <i class="fas fa-caret-right" [ngClass]="{'visib': !isBarClosed}"></i>
+  <i class="fas fa-search"></i>
+  <span class="space"></span>
+  <span class="add"><i class="fas fa-plus"></i><span>Add project</span></span>
+  <i class="fas fa-envelope"></i>
+  <i class="fas fa-bell"></i>
+  <span class="number">3</span>
+  <img src="../../assets/avatar.jpg" alt="avatar">
+  <i class="fas fa-caret-down"></i>
+</div>

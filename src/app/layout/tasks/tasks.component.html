@@ -1,0 +1,11 @@
+<div class="cont">
+<header>
+  <h3>Tasks</h3>
+  <span class="space"></span>
+  <span class="primary circle">{{tasks.length}}</span>
+  <span class="delayed circle">{{tasksDelayed.length}}</span>
+</header>
+  <div class="list">
+  <app-task *ngFor="let task of tasks" [task]="task"></app-task>
+</div>
+</div>

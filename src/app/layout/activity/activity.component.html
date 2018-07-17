@@ -1,0 +1,12 @@
+<div class="cont">
+  <header>
+    <h3>Activity</h3>
+    <span class="space"></span>
+    <span class="primary circle">{{activities.length}}</span>
+  </header>
+  <div class="list">
+    <div class="line"></div>
+    <app-activ *ngFor="let activity of activities; let ind = index" [activity]="activity"
+    [index]="ind" [length]="activities.length-1"></app-activ>
+  </div>
+</div>

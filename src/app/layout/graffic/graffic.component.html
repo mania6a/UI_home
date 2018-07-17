@@ -1,0 +1,13 @@
+<div class="container">
+<header>
+  <h2>Your Sales</h2>
+  <div class="select text">
+    <span>Period:</span>
+    <select>
+      <option *ngFor="let opt of options" value="opt">{{opt}}</option>
+    </select>
+    <i class="fas fa-angle-down"></i>
+  </div>
+</header>
+<canvas #canvas></canvas>
+</div>

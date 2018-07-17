@@ -1,0 +1,13 @@
+<div class="container">
+  <span class="circle">{{task.title.slice(0, 1)}}</span>
+  <div>
+    <p><strong>{{task.title}}</strong></p><br>
+    <p class="time" [ngClass]="{'delayed': task.isDelayed}"><i class="far fa-clock"></i>
+      <span>{{task.time}}</span>
+      <span *ngIf="task.isDelayed">delayed</span>
+      <span *ngIf="!task.isDelayed">left</span>
+    </p>
+  </div>
+  <span class="space"></span>
+  <i class="fas fa-ellipsis-v"></i>
+</div>

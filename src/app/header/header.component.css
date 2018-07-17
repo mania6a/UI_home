@@ -1,0 +1,84 @@
+img{
+  width: 30px;
+  border-radius: 50%;
+}
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 11vh;
+  border-bottom: 1px solid #e7eaf0;
+  background-color: white;
+;
+}
+.space{
+  flex: 1 1 auto;
+}
+.add{
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.fa-plus{
+  color: lightskyblue;
+  font-size: x-small;
+  padding-right: 10px;
+}
+.fa-caret-left, .fa-caret-right{
+  color: dodgerblue;
+  font-size: x-small;
+}
+.fa-search, .fa-caret-left{
+  padding-left: 2vw;
+}
+.fa-bell{
+  padding-left: 1.5vw;
+}
+.fa-caret-down{
+  padding-left: 5px;
+  font-size: x-small;
+}
+.add, .fa-caret-down, .number{
+  margin-right: 2vw;
+}
+
+.number, .add{
+  background-color: dodgerblue;
+  color: white;
+}
+.number{
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 0.5rem;
+  z-index: 10;
+  position: relative;
+  left: -6px;
+  margin-bottom: 15px;
+  width: 7px;
+  height: 7px;
+  text-align: center;
+  line-height: 100%;
+}
+.fa-bars:hover{
+  cursor: pointer;
+}
+.fa-bars{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.visib{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 525px){
+  .add span{
+    display: none;
+  }
+  .add{
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .fa-plus{
+    padding-right: 0px;
+  }
+}

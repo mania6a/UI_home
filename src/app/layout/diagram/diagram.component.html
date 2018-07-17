@@ -1,0 +1,41 @@
+<div class="container">
+<header>
+<h2>Your Sales</h2>
+<div class="select text">
+  <span>Period:</span>
+  <select>
+    <option *ngFor="let opt of options" value="opt">{{opt}}</option>
+  </select>
+  <i class="fas fa-angle-down"></i>
+</div>
+</header>
+  <div class="diagramm">
+    <div class="cont" #cont>
+      <div class="frame">
+        <div class="value"></div>
+      </div>
+      <div class="frame">
+        <div class="value"></div>
+      </div>
+      <div class="frame">
+        <div class="value"></div>
+      </div>
+      <div class="frame">
+        <div class="value"></div>
+      </div>
+      <div class="frame">
+        <div class="value"></div>
+      </div>
+      <div class="hole">
+        <h2>{{amount}}</h2>
+        <h4 class="text">Sales</h4>
+      </div>
+    </div>
+    <div class="legend">
+      <div *ngFor="let operation of operations; let ind = index">
+        <div class="drop" [ngStyle]="{'background-color': colors[ind]}"></div>
+        <span class="text">{{operation}}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+  <app-side-bar class="side-bar" [@sideBar]="isHidden ? 'hide' : '*'">
+  </app-side-bar>
+  <div class="contLayout">
+  <app-header (toggleBar)="toggleBar()"></app-header>
+    <h1>Hello John!</h1>
+    <div class="cont">
+  <div class="grafCont">
+    <app-diagram class="diagram"></app-diagram>
+    <app-graffic class="graffic"></app-graffic>
+  </div>
+  <div class="actCont">
+    <app-tasks></app-tasks>
+    <app-messages></app-messages>
+    <app-activity></app-activity>
+  </div>
+    </div>
+</div>
+</div>

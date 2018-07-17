@@ -1,0 +1,12 @@
+<div class="container" [ngClass]="{'unread': !message.isRead}">
+  <img [src]="avatar" alt="avatar">
+  <div class="cont">
+    <p><strong>{{message.name}}</strong> <span class="time">{{message.time}}</span></p>
+    <p class="text">{{message.text}}</p>
+    <p>
+      <i class="fas fa-reply"></i>
+      <i class="fas fa-cog"></i>
+    </p>
+  </div>
+</div>
+

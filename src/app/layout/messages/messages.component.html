@@ -1,0 +1,10 @@
+<div class="cont">
+  <header>
+    <h3>Messages</h3>
+    <span class="space"></span>
+    <span class="primary circle">{{messagesUnread.length}}</span>
+  </header>
+  <div class="list">
+    <app-message *ngFor="let message of messages" [message]="message"></app-message>
+  </div>
+</div>
