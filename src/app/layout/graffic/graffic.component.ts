@@ -1,15 +1,15 @@
-import {AfterViewChecked, AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
+import {AfterViewChecked, AfterViewInit, Component, OnChanges, OnInit, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-graffic',
   templateUrl: './graffic.component.html',
   styleUrls: ['./graffic.component.css']
 })
-export class GrafficComponent implements OnInit, AfterViewInit {
+export class GrafficComponent implements OnInit, AfterViewInit{
 @ViewChild('canvas') canvas;
 options = ['Last Year', '2016', '2015', '2014'];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
